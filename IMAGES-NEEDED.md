@@ -20,7 +20,7 @@ changes needed.
 | 6 | `hero-suppliers.jpg` | Suppliers — page banner | Industrial warehouse, valves/components close-up, or logistics | ≥ 2400 × 900 px, landscape |
 | 7 | `hero-contact.jpg` | Contact — page banner | Houston skyline, or modern office exterior | ≥ 2400 × 900 px, landscape |
 | 8 | `about-partnership.jpg` | About — "Sourcing network" section | Business handshake at an industrial site, or global trade/partnership concept (this echoes the handshake photo on the old site) | ≥ 1000 × 800 px, roughly square/portrait-ish crop |
-| 9 | `refinery-petrochemical.jpg` | Home — 4th sector card | Oil refinery / petrochemical plant: distillation columns, cracking towers, or tank farm | ≥ 1200 × 750 px — **still needed** (currently shows branded placeholder art) |
+| 9 | `refinery-petrochemical.jpg` | Home — 4th sector card | Oil refinery / petrochemical plant: distillation columns, cracking towers, or tank farm | ≥ 1200 × 750 px |
 
 Tips
 - All hero images get a dark navy/blue overlay for text legibility, so photos with blue/cool tones will blend best with the brand palette (royal blue #211D9C, steel blue #679ACE).
