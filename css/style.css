@@ -319,6 +319,11 @@ a:hover { color: var(--brand-bright); }
   margin-top: 48px;
 }
 
+.card-grid.cols-4 { grid-template-columns: repeat(4, 1fr); gap: 22px; }
+
+.card-grid.cols-4 .card-body { padding: 22px 24px 26px; }
+.card-grid.cols-4 .card-body h3 { font-size: 1.08rem; }
+
 .card {
   background: var(--white);
   border: 1px solid var(--line);
@@ -800,7 +805,7 @@ a:hover { color: var(--brand-bright); }
    -------------------------------------------------------------------------- */
 
 @media (max-width: 980px) {
-  .card-grid, .contact-grid, .photo-strip { grid-template-columns: repeat(2, 1fr); }
+  .card-grid, .card-grid.cols-4, .contact-grid, .photo-strip { grid-template-columns: repeat(2, 1fr); }
   .area-grid { grid-template-columns: repeat(2, 1fr); }
   .split { grid-template-columns: 1fr; gap: 40px; }
   .stats { grid-template-columns: repeat(2, 1fr); }
@@ -838,7 +843,7 @@ a:hover { color: var(--brand-bright); }
 
   .section { padding: 60px 0; }
   .hero-home { padding: 90px 0; min-height: 0; }
-  .card-grid, .contact-grid, .photo-strip, .area-grid { grid-template-columns: 1fr; }
+  .card-grid, .card-grid.cols-4, .contact-grid, .photo-strip, .area-grid { grid-template-columns: 1fr; }
   .letter-block ul { columns: 1; }
   .footer-grid { grid-template-columns: 1fr; gap: 36px; }
   .supplier-tools { position: static; }
