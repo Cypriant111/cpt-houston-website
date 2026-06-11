@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgS" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#211d9c"/>
+      <stop offset="0.55" stop-color="#263841"/>
+      <stop offset="1" stop-color="#16242c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="700" fill="url(#bgS)"/>
+  <circle cx="380" cy="150" r="110" fill="#679ace" opacity="0.16"/>
+  <g stroke="#a8c6e4" stroke-width="6" fill="none" opacity="0.6">
+    <!-- crates -->
+    <rect x="420" y="400" width="150" height="150" rx="10"/>
+    <rect x="590" y="400" width="150" height="150" rx="10"/>
+    <rect x="505" y="250" width="150" height="130" rx="10"/>
+    <path d="M495 475 H565 M665 475 H740 M580 315 H650"/>
+    <!-- gear -->
+    <circle cx="1010" cy="430" r="95"/>
+    <circle cx="1010" cy="430" r="38"/>
+    <path d="M1010 305 V335 M1010 525 V555 M885 430 H915 M1105 430 H1135 M922 342 L943 363 M1077 497 L1098 518 M1098 342 L1077 363 M943 497 L922 518" stroke-width="10"/>
+    <!-- forklift-ish -->
+    <path d="M1320 550 V430 H1450 L1490 480 V550 M1300 550 H1510 M1320 470 H1280 V550" />
+    <circle cx="1350" cy="560" r="22"/>
+    <circle cx="1470" cy="560" r="22"/>
+    <path d="M300 585 H1620" stroke-width="8"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="960" y="640" font-size="26" fill="#a8c6e4" opacity="0.8" letter-spacing="5">PLACEHOLDER</text>
+    <text x="960" y="674" font-size="18" fill="#a8c6e4" opacity="0.55">Replace with iStock photo — images/hero-suppliers.jpg (industrial supply / warehouse)</text>
+  </g>
+</svg>

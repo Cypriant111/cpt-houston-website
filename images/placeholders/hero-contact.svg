@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16242c"/>
+      <stop offset="1" stop-color="#211d9c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="700" fill="url(#bgC)"/>
+  <circle cx="1500" cy="170" r="110" fill="#679ace" opacity="0.16"/>
+  <g stroke="#a8c6e4" stroke-width="6" fill="none" opacity="0.6">
+    <!-- skyline -->
+    <path d="M380 560 V340 H470 V560 M510 560 V260 H610 V560 M650 560 V390 H740 V560 M545 220 V260"/>
+    <path d="M405 380 H445 M405 430 H445 M535 300 H585 M535 350 H585 M535 400 H585 M675 430 H715"/>
+    <!-- map pin -->
+    <path d="M1150 250 C1075 250 1020 308 1020 380 C1020 470 1150 580 1150 580 C1150 580 1280 470 1280 380 C1280 308 1225 250 1150 250 Z"/>
+    <circle cx="1150" cy="378" r="46"/>
+    <!-- route -->
+    <path d="M320 600 C600 560 850 620 1150 580 C1380 552 1520 580 1640 560" stroke-dasharray="2 22" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="960" y="645" font-size="26" fill="#a8c6e4" opacity="0.8" letter-spacing="5">PLACEHOLDER</text>
+    <text x="960" y="678" font-size="18" fill="#a8c6e4" opacity="0.55">Replace with iStock photo — images/hero-contact.jpg (Houston skyline / office)</text>
+  </g>
+</svg>

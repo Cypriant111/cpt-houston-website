@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16242c"/>
+      <stop offset="0.55" stop-color="#263841"/>
+      <stop offset="1" stop-color="#485f6c"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#211d9c" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#679ace" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+  <circle cx="1500" cy="280" r="130" fill="#679ace" opacity="0.22"/>
+  <g stroke="#a8c6e4" stroke-width="6" fill="none" opacity="0.75">
+    <!-- derrick -->
+    <path d="M340 880 L420 470 L500 880 M360 790 L482 790 M375 700 L466 700 M390 610 L452 610 M403 540 L440 540"/>
+    <!-- tanks -->
+    <rect x="640" y="740" width="190" height="140" rx="14"/>
+    <rect x="870" y="700" width="190" height="180" rx="14"/>
+    <path d="M640 780 H830 M870 745 H1060"/>
+    <!-- refinery stack -->
+    <path d="M1150 880 V520 H1210 V880 M1180 520 V440"/>
+    <circle cx="1180" cy="415" r="10" opacity="0.7"/>
+    <!-- pylon -->
+    <path d="M1450 880 L1520 480 L1590 880 M1440 600 H1600 M1462 700 H1578 M1404 600 L1520 700 M1636 600 L1520 700"/>
+    <path d="M1404 600 C1100 660 900 640 640 600" opacity="0.45"/>
+    <path d="M1636 600 C1750 630 1840 625 1920 600" opacity="0.45"/>
+    <!-- ground -->
+    <path d="M180 880 H1740" stroke-width="8"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="960" y="985" font-size="34" fill="#a8c6e4" opacity="0.85" letter-spacing="6">PLACEHOLDER</text>
+    <text x="960" y="1025" font-size="22" fill="#a8c6e4" opacity="0.6">Replace with iStock photo — images/hero-home.jpg (wide industrial / refinery panorama)</text>
+  </g>
+</svg>

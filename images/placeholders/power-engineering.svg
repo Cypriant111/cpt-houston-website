@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#211d9c"/>
+      <stop offset="1" stop-color="#16242c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg3)"/>
+  <circle cx="650" cy="110" r="80" fill="#679ace" opacity="0.2"/>
+  <g stroke="#a8c6e4" stroke-width="6" fill="none" opacity="0.85">
+    <!-- main pylon -->
+    <path d="M310 470 L400 130 L490 470 M300 230 H500 M320 320 H480 M260 230 L400 320 M540 230 L400 320 M345 400 H455"/>
+    <!-- small pylon -->
+    <path d="M620 470 L670 280 L720 470 M600 330 H740 M615 400 H725" opacity="0.7"/>
+    <!-- lines -->
+    <path d="M260 230 C160 280 80 275 0 250 M540 230 C580 260 600 300 600 330 M740 330 C780 345 800 350 800 350" opacity="0.5"/>
+    <!-- bolt -->
+    <path d="M120 360 L165 360 L140 410 L185 410 L110 510 L135 440 L95 440 Z" fill="#679ace" fill-opacity="0.3"/>
+    <path d="M60 470 H760" stroke-width="8"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="400" y="540" font-size="24" fill="#a8c6e4" letter-spacing="4">POWER ENGINEERING</text>
+    <text x="400" y="572" font-size="15" fill="#a8c6e4" opacity="0.6">Placeholder — replace with images/power-engineering.jpg</text>
+  </g>
+</svg>

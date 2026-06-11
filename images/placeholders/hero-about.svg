@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgA" x1="0" y1="0" x2="1" y2="0.6">
+      <stop offset="0" stop-color="#16242c"/>
+      <stop offset="0.6" stop-color="#263841"/>
+      <stop offset="1" stop-color="#211d9c"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="700" fill="url(#bgA)"/>
+  <circle cx="1550" cy="160" r="120" fill="#679ace" opacity="0.16"/>
+  <g stroke="#a8c6e4" stroke-width="6" fill="none" opacity="0.6">
+    <rect x="320" y="330" width="200" height="220" rx="12"/>
+    <rect x="560" y="260" width="200" height="290" rx="12"/>
+    <path d="M360 380 H480 M360 430 H480 M600 310 H720 M600 360 H720 M600 410 H720"/>
+    <path d="M900 550 V300 H960 V550 M930 300 V230"/>
+    <circle cx="930" cy="205" r="9"/>
+    <path d="M1150 550 L1220 270 L1290 550 M1140 360 H1300 M1158 450 H1282"/>
+    <path d="M1100 360 C900 410 700 400 520 370 M1340 360 C1500 395 1700 390 1860 360" opacity="0.4"/>
+    <path d="M260 550 H1660" stroke-width="8"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="960" y="630" font-size="26" fill="#a8c6e4" opacity="0.8" letter-spacing="5">PLACEHOLDER</text>
+    <text x="960" y="664" font-size="18" fill="#a8c6e4" opacity="0.55">Replace with iStock photo — images/hero-about.jpg (engineering team / industrial plant)</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#263841"/>
+      <stop offset="1" stop-color="#211d9c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <circle cx="640" cy="120" r="100" fill="#679ace" opacity="0.18"/>
+  <g stroke="#a8c6e4" stroke-width="6" fill="none" opacity="0.85">
+    <!-- pipeline with valve -->
+    <path d="M60 430 H300 M500 430 H740"/>
+    <circle cx="400" cy="430" r="60"/>
+    <path d="M400 370 V300 M360 300 H440"/>
+    <path d="M348 430 H452" opacity="0.5"/>
+    <!-- flame -->
+    <path d="M400 250 C360 200 380 150 400 110 C420 150 460 170 440 220 C470 205 470 240 450 255 C440 263 415 268 400 250 Z" fill="#679ace" fill-opacity="0.25"/>
+    <!-- gauge ticks -->
+    <path d="M120 430 V400 M180 430 V400 M240 430 V400 M560 430 V400 M620 430 V400 M680 430 V400" opacity="0.4"/>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="400" y="520" font-size="24" fill="#a8c6e4" letter-spacing="4">GAS ENGINEERING</text>
+    <text x="400" y="552" font-size="15" fill="#a8c6e4" opacity="0.6">Placeholder — replace with images/gas-engineering.jpg</text>
+  </g>
+</svg>
